@@ -1,0 +1,15 @@
+ADD 	0001 	R-type  1  	PC+4
+SUB 	0010 	R-type  2	PC+4
+SLT 	0011 	R-type  3  	PC+4
+JR 	0111 	R-type  7
+ADDI 	0000 	I-type  0  	PC+4
+BNE 	0100 	I-type  4
+SW 	1000 	I-type  8  	PC+4
+LW 	1001 	I-type  9  	PC+4
+TEQ 	1010 	I-type  10
+JAL 	0101 	J-type  5
+J 	0110 	J-type  6
+ERET 	1011 	J-type  11
+JU 	1100 	J-type  12
+CAC 	1101 	J-type  13  	PC+4
+HALT	1111	J-type 	15
